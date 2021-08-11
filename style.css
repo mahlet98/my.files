@@ -1,0 +1,46 @@
+body
+   {background-color:rgb(220, 220, 220);color: black;font:sans-serif ;font-size: 16px;}
+    h1 h2 h3 {font:serif;}
+   h1{ font-size:36px; }
+   h2{ font-size:28 ; }
+   a:hover{color: red;}
+
+/*Custom design with class*/
+.container{ 
+   width: 700px;
+   margin: 40px auto; 
+}
+
+@media (max-width: 760px){ 
+.container {
+   width: 600px;
+   } }
+
+@media (max-width: 500px){
+   .container {
+      width: 400px;
+   }
+}
+
+ .card-white{
+   background-color: white;
+   padding: 40px;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+ }
+ .img-circle{
+  border-radius:40%; }
+
+  .list-inline li {
+    display: inline;
+    padding: 10px;
+  }
+  .list-inline i{
+    font-size: 50px;
+    color: rgb(220, 220, 220);
+  }
+  .list-inline i:hover {
+     color: blue;
+  }
